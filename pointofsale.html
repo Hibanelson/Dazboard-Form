@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/point.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Point of Sale | Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo"></div>
+            <span>Dazzie</span>
+        </div>
+        <div class="user-profile">
+            <div class="notification-logo">
+                <img src="images/notification.png" alt="ring">
+            </div>
+            <div class="profile">
+                <div class="user-logo"></div>
+                <div class="user-info">
+                    <p>Sumanto</p>
+                    <span>Cashier</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#"><img src="images/app.png"alt="app"></a></li>
+                <li><a href="analytics.html"><img src="images/analytics.png"alt="analytics"></a></li>
+                <li><a href="customer.html"><img src="images/customer.png"alt="customer"></a></li>
+                <li><a href="product.html"><img src="images/product.png"alt="product"></a></li>
+                <hr>
+                <li><a href="coupon.html"><img src="images/coupon.png"alt="coupon"></a></li>
+                <li><a href="employee.html"><img src="images/employee.png"alt="employee"></a></li>
+                <li><a href="settings.html"><img src="images/settings.png" alt="settings"></a></li>
+            </ul>
+            <ul>
+                <li><a href="settings.html"><img src="images/settings.png" alt="settings"></a></li>
+            </ul>
+        </nav>
+        <div class="food-container">
+            <div class="search">
+                <img src="/images/search.png" alt="search">
+                <input type="search"placeholder="Search Here...">
+            </div>
+            <ul>
+                <li class="active"><a href="#">All</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Drinks</a></li>
+                <li><a href="#">Snacks</a></li>
+                <li><a href="#">Packages</a></li>
+            </ul>
+            <p>Food</p>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Sashimi</h5>
+                <span>$22</span>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Unagi - Grilled Eel</h5>
+                <span>$22</span>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Soba - Buckwheat Noodles</h5>
+                <span>$22</span>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Onigiri - Rice Balls</h5>
+                <span>$22</span>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Yakitori - Grilled Chicken</h5>
+                <span>$22</span>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Miso Soup</h5>
+                <span>$22</span>
+            </div>
+            <p>Drinks</p>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Amazake</h5>
+                <span>$22</span>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Royal Milk Tea</h5>
+                <span>$22</span>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <h5>Flavored Soymilk Drinks</h5>
+                <span>$22</span>
+            </div>
+        </div>
+        <div class="other-container">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <p>Current Order</p>
+                    <div class="clear-all">
+                        <p>Clear All</p>
+                        <img src="images/refresh.png" alt="refresh">
+                    </div>
+                </div>
+                <div class="order-log">
+                    <div class="order">
+                        <div class="order-logo"></div>
+                        <div class="order-info">
+                            <p>Soba - Buckwheat Noodles</p>
+                            <span>22$</span>
+                        </div>
+                        <div class="order-quantity">
+                            <span onclick="subFunction()">-</span>
+                            <span id="quantity1">1</span>
+                            <span onclick="addFunction()">+</span>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <div class="order-logo"></div>
+                        <div class="order-info">
+                            <p>Unagi - Grilled Eel</p>
+                            <span>22$</span>
+                        </div>
+                        <div class="order-quantity">
+                            <span onclick="subFunctionTwo()">-</span>
+                            <span id="quantity2">1</span>
+                            <span onclick="addFunctionTwo()">+</span>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <div class="order-logo"></div>
+                        <div class="order-info">
+                        <p>Yakitori - Grilled Chicken</p>
+                        <span>22$</span>
+                        </div>
+                        <div class="order-quantity">
+                            <span onclick="subFunctionThree()">-</span>
+                            <span id="quantity3">1</span>
+                            <span onclick="addFunctionThree()">+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="promo">
+                <p>Select available promo to apply</p>
+                <label>
+                    <select name="promo" id="promo">
+                        <option value="20% Off Entire Order">20% Off Entire Order</option>
+                    </select>
+                </label>
+            </div>
+            <div class="billing">
+                <div class="item">
+                    <span>Sub Total</span>
+                    <span>$88</span>
+                </div>
+                <div class="item">
+                    <span>Tax Total</span>
+                    <span>$4</span>
+                </div>
+                <div class="item">
+                    <span>Discount</span>
+                    <span>-20%</span>
+                </div>
+                <hr>
+                <div class="total">
+                    <span>Total</span>
+                    <span>$32</span>
+                </div>
+            </div>
+            <div class="payment-method">
+                <div class="title">
+                    <p>Payment Mode</p>
+                    <img src="images/dots.png" alt="dots">
+                </div>
+                <div class="modes">
+                    <div class="card">Card</div>
+                    <div class="cash">Cash</div>
+                    <div class="e-wallet">E-Wallet</div>
+                </div>
+                <button>Pay Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
