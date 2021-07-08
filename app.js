@@ -1,5 +1,5 @@
 function myOpenFunction() {
-    window.open("pointofsale.html","_self");
+    window.location.href ="pointofsale.html";
 }
 function subFunction() {
     var q = parseInt(document.getElementById("quantity1").innerHTML);
