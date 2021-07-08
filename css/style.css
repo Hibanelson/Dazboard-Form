@@ -74,7 +74,7 @@ h4 {
 .container ul li.active a {
     color: black;
 }
-.container form {
+.container .form {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -83,15 +83,15 @@ h4 {
     font-weight: bold;
     line-height: 120%;
 }
-.container form label , .container form input {
+.container .form label , .container .form input {
     display: block;
     width: 100%;
 }
-.container form label {
+.container .form label {
     margin-bottom: 5px;
     padding-left: 10px;
 }
-.container form input {
+.container .form input {
     padding: 10px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -100,38 +100,38 @@ h4 {
     -o-border-radius: 5px;
     border: 1px solid var(--dark-purple);
 }
-.container form #email {
+.container .form #email {
     margin-bottom: 15px;
 }
-.container form #passwordSignup {
+.container .form #passwordSignup {
     margin-bottom: 15px;
 }
-.container form #confirm {
+.container .form #confirm {
     margin-bottom: 15px;
 }
-.container form input[type="checkbox"] , .container form input[type="checkbox"] + label {
+.container .form input[type="checkbox"] , .container form input[type="checkbox"] + label {
     display: inline;
     width: unset;
 }
-.container form input[type="checkbox"] {
+.container .form input[type="checkbox"] {
     margin-left: 15px;
 }
-.container form #signup {
+.container .form #signup {
     margin-top: 15px;
 }
-.container form p {
+.container .form p {
     text-align: right;
     color: #9A9AB0;
     margin-top: 5px;
     margin-bottom: 15px;
 }
-.container form p:last-of-type {
+.container .form p:last-of-type {
     text-align: center;
 }
-.container form p a {
+.container .form p a {
     color: #9A9AB0;
 }
-.container form button {
+.container .form button {
     background-color: var(--dark-purple);
     width: 100%;
     padding: 10px;
@@ -141,16 +141,18 @@ h4 {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-}
-.container form button  a {
     color: white;
     font-family: Mulish , Tahoma;
     font-size: 16px;
     font-weight: bold;
     line-height: 120%;
 }
-.container form button:last-of-type {
+.container .form button:hover {
+    cursor: pointer;
+}
+.container .form button:last-of-type {
     background-color: white;
+    color: var(--dark-purple);
     margin-top: -10px;
     width: 100%;
     padding: 10px;
@@ -160,7 +162,4 @@ h4 {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-}
-.container form button:last-of-type a {
-    color: var(--dark-purple);
 }
