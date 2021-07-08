@@ -17,20 +17,20 @@
             <li><a href="index.html">Sign In</a></li>
             <li class="active"><a href="#">Sign Up</a></li>
         </ul>
-        <form action="post">
+        <div class="form">
             <label for="name">Name</label>
-            <input type="name"placeholder="input your name in here"id="email">
+            <input type="name"placeholder="input your name in here"id="name"required>
             <label for="email">Email</label>
-            <input type="email"placeholder="input your email in here"id="email">
+            <input type="email"placeholder="input your email in here"id="email"required>
             <label for="password">Password</label>
-            <input type="password"placeholder="input your password in here"id="passwordSignup">
+            <input type="password"placeholder="input your password in here"id="passwordSignup"required>
             <label for="confirm-password">Confirm Password</label>
-            <input type="password"placeholder="input your password in here"id="confirm">
-            <input type="checkbox"><label for="checkbox">I have read and agree to the Terms of Service</label>
-            <button><a href="pointofsale.html">Sign up</a></button>
+            <input type="password"placeholder="input your password in here"id="confirm"required>
+            <input type="checkbox"required><label for="checkbox">I have read and agree to the Terms of Service</label>
+            <button onclick="myOpenFunction()">Sign up</button>
             <p>Or</p>
-            <button><a href="pointofsale.html">Sign up with Google</a></button>
-        </form>
+            <button onclick="myOpenFunction()">Sign up with Google</button>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
