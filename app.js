@@ -31,3 +31,9 @@ function addFunctionThree() {
     q++;
     document.getElementById("quantity3").innerHTML = q;
 }
+function displayNav() {
+    document.getElementById("nav").style.display = "flex";
+}
+function hideNav() {
+    document.getElementById("nav").style.display = "none";
+}
