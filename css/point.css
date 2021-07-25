@@ -46,6 +46,23 @@ header .logo-container span {
     font-weight: bold;
     line-height: 120%;
 }
+header i {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    /* font-family: 'Mulish'; */
+    font-size: 24px;
+    margin-right: 50px;
+    padding-top: 7px;
+    color: var(--dark-purple);
+}
+@media (min-width: 992px) {
+    header i {
+        display: none;
+    }
+}
+header i:hover {
+    cursor: pointer;
+}
 @media (min-width: 1440px) {
     header .user-profile {
         display: flex;
@@ -83,12 +100,22 @@ header .user-profile .profile .user-info {
 }
 nav {
     background-color: white;
-    display: flex;
-    border-bottom: 1px solid #E1E1E1;
+    display: none;
     justify-content: space-between;
+    border-bottom: 1px solid #E1E1E1;
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+}
+header i:hover ~ nav {
+    display: flex;
 }
 @media (min-width: 992px) {
     nav {
+        display: flex;
+        justify-content: space-between;
         width: 112px;
         flex-direction: column;
     }
@@ -98,6 +125,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 @media (min-width: 992px) {
     nav ul {
