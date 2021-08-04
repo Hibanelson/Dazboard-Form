@@ -33,7 +33,7 @@ function addFunctionThree() {
 }
 function openNav() {
     document.getElementById("mySidebar").style.width = "100%";
-    document.getElementById("mySidebar").style.height = "100%";
+    document.getElementById("mySidebar").style.height = "100vh";
     document.getElementById("main").style.position = "relative";
     document.getElementById("main").style.zIndex = "1";
     document.getElementById("main").style.marginLeft = "70px";
