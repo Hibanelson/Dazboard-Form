@@ -235,7 +235,6 @@ header .user-profile .profile .user-info {
 @media (min-width: 992px) {
     .container .other-container {
         width: calc(100% - 120px);
-    	max-width: 1325px;
     	display: flex;
     	flex-wrap: wrap;
     	justify-content: space-between;
