@@ -252,7 +252,7 @@ header .user-profile .profile .user-info {
 }
 @media (min-width: 992px) {
     .container .stats-container {
-        width: 100%;
+           width: calc(100% - 80px);
     } 
 }
 .container .stats-container .stat {
@@ -345,7 +345,6 @@ header .user-profile .profile .user-info {
     margin-bottom: 30px;
     width: calc(100% - 60px);
     max-width: 400px;
-    margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
     -webkit-border-radius: 8px;
