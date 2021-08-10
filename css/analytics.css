@@ -187,11 +187,11 @@ header .user-profile .profile .user-info {
 }
 @media (min-width: 992px) {
     .container {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 0;
+            position: relative;
+    	    display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0;
     }
     .container #nav {
         display: flex;
@@ -234,11 +234,11 @@ header .user-profile .profile .user-info {
 }
 @media (min-width: 992px) {
     .container .other-container {
-        width: calc(100% - 130px);
-        max-width: 1325px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        width: calc(100% - 120px);
+    	max-width: 1325px;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-between;
     }
 }
 .container .stats-container {
