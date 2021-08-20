@@ -74,3 +74,99 @@ function openNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
   }
+function changeImgOn1(){
+   var imgOn = document.getElementById("imgBtnOn1");
+   var imgOff = document.getElementById("imgBtnOff1");
+   imgOn.classList.toggle("hide");
+   imgOff.classList.toggle("hide");
+}
+function changeImgOff1(){
+    var imgOn = document.getElementById("imgBtnOn1");
+    var imgOff = document.getElementById("imgBtnOff1");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOn2(){
+    var imgOn = document.getElementById("imgBtnOn2");
+    var imgOff = document.getElementById("imgBtnOff2");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOff2(){
+     var imgOn = document.getElementById("imgBtnOn2");
+     var imgOff = document.getElementById("imgBtnOff2");
+     imgOn.classList.toggle("hide");
+     imgOff.classList.toggle("hide");
+  }
+  function changeImgOn3(){
+    var imgOn = document.getElementById("imgBtnOn3");
+    var imgOff = document.getElementById("imgBtnOff3");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOff3(){
+     var imgOn = document.getElementById("imgBtnOn3");
+     var imgOff = document.getElementById("imgBtnOff3");
+     imgOn.classList.toggle("hide");
+     imgOff.classList.toggle("hide");
+  }
+  function changeImgOn4(){
+    var imgOn = document.getElementById("imgBtnOn4");
+    var imgOff = document.getElementById("imgBtnOff4");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOff4(){
+     var imgOn = document.getElementById("imgBtnOn4");
+     var imgOff = document.getElementById("imgBtnOff4");
+     imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+  }
+  function changeImgOn5(){
+    var imgOn = document.getElementById("imgBtnOn5");
+    var imgOff = document.getElementById("imgBtnOff5");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOff5(){
+     var imgOn = document.getElementById("imgBtnOn5");
+     var imgOff = document.getElementById("imgBtnOff5");
+     imgOn.classList.toggle("hide");
+     imgOff.classList.toggle("hide");
+  }
+  function changeImgOn6(){
+    var imgOn = document.getElementById("imgBtnOn6");
+    var imgOff = document.getElementById("imgBtnOff6");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOff6(){
+     var imgOn = document.getElementById("imgBtnOn6");
+     var imgOff = document.getElementById("imgBtnOff6");
+     imgOn.classList.toggle("hide");
+     imgOff.classList.toggle("hide");
+  }
+  function changeImgOn7(){
+    var imgOn = document.getElementById("imgBtnOn7");
+    var imgOff = document.getElementById("imgBtnOff7");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOff7(){
+     var imgOn = document.getElementById("imgBtnOn7");
+     var imgOff = document.getElementById("imgBtnOff7");
+     imgOn.classList.toggle("hide");
+     imgOff.classList.toggle("hide");
+  }
+  function changeImgOn8(){
+    var imgOn = document.getElementById("imgBtnOn8");
+    var imgOff = document.getElementById("imgBtnOff8");
+    imgOn.classList.toggle("hide");
+    imgOff.classList.toggle("hide");
+ }
+ function changeImgOff8(){
+     var imgOn = document.getElementById("imgBtnOn8");
+     var imgOff = document.getElementById("imgBtnOff8");
+     imgOn.classList.toggle("hide");
+     imgOff.classList.toggle("hide");
+  }
