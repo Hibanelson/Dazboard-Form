@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/coupons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Point of Sale | Coupons</title>
+</head>
+<body>
+    <nav id="mySidebar" class="sidebar">
+        <div class="cont"id="cont">
+            <ul>
+                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
+                <li><a href="pointofsale.html"><img src="images/app-normal.png"alt="app"></a></li>
+                <li><a href="analytics.html"><img src="images/analytics.png"alt="analytics"></a></li>
+                <li><a href="customers.html"><img src="images/customer.png"alt="customer"></a></li>
+                <li><a href="products.html"><img src="images/product.png"alt="product"></a></li>
+                <li><a href="#"><img src="images/coupon-hover.png"alt="coupon"></a></li>
+                <li><a href="#"><img src="images/employee.png"alt="employee"></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="images/settings.png" alt="settings"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+            <div class="logo-container">
+                <div class="logo"></div>
+                <span>Dazzie</span>
+            </div>
+            <button class="openbtn" onclick="openNav()">☰</button> 
+            <div class="user-profile">
+                <div class="notification-logo">
+                    <img src="images/notification.png" alt="ring">
+                </div>
+                <div class="profile">
+                    <div class="user-logo"></div>
+                    <div class="user-info">
+                        <p>Sumanto</p>
+                        <span>Cashier</span>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="main"id="main">
+        <div class="container">
+            <nav id="nav">
+                <ul>
+                    <li><a href="pointofsale.html"><img src="images/app-normal.png" alt="app"></a></li>
+                    <li><a href="analytics.html"><img src="images/analytics.png" alt="analytics"></a></li>
+                    <li><a href="customers.html"><img src="images/customer.png"alt="customer"></a></li>
+                    <li><a href="products.html"><img src="images/product.png"alt="product"></a></li>
+                    <li><a href="#"><img src="images/coupon-hover.png" alt="coupon"></a></li>
+                    <li><a href="#"><img src="images/employee.png" alt="employee"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#"><img src="images/settings.png" alt="settings"></a></li>
+                </ul>
+            </nav>
+            <div class="other-container">
+                <div class="header-container">
+                    <p>Coupon</p>
+                    <button>Create New</button>
+                </div>
+                <div class="customers-table">
+                    <div class="search">
+                        <img src="/images/search.png" alt="search">
+                        <input type="search"placeholder="Search Here...">
+                        <img src="/images/button.png" alt="button">
+                        <img src="/images/dots.png" alt="dots">
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                             <th>ID</th>
+                             <th>Code</th>
+                             <th>Discount</th>
+                             <th>Start Date</th>
+                             <th>End Date</th>
+                             <th>Activate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="ID">01</td>
+                                <td data-label="Code">20% Off Entire Order</td>
+                                <td data-label="Discount">20%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn1()"class="img-btn"id="imgBtnOn1">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff1()"class="img-btn hide"id="imgBtnOff1">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="ID">02</td>
+                                <td data-label="Code">10% Off Entire Item</td>
+                                <td data-label="Discount">10%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff2()"class="img-btn"id="imgBtnOff2">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn2()"class="img-btn hide"id="imgBtnOn2">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="ID">03</td>
+                                <td data-label="Code">50% Off Entire Order</td>
+                                <td data-label="Discount">50%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff3()"class="img-btn"id="imgBtnOff3">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn3()"class="img-btn hide"id="imgBtnOn3">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="ID">04</td>
+                                <td data-label="Code">10% Off Entire Order</td>
+                                <td data-label="Discount">10%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff4()"class="img-btn"id="imgBtnOff4">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn4()"class="img-btn hide"id="imgBtnOn4">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="ID">05</td>
+                                <td data-label="Code">60% Off Entire Item</td>
+                                <td data-label="Discount">60%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn5()"class="img-btn"id="imgBtnOn5">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff5()"class="img-btn hide"id="imgBtnOff5">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="ID">06</td>
+                                <td data-label="Code">70% Off Entire Item</td>
+                                <td data-label="Discount">70%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn6()"class="img-btn"id="imgBtnOn6">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff6()"class="img-btn hide"id="imgBtnOff6">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="ID">07</td>
+                                <td data-label="Code">20% Off Entire Order</td>
+                                <td data-label="Discount">20%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn7()"class="img-btn"id="imgBtnOn7">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff7()"class="img-btn hide"id="imgBtnOff7">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="ID">08</td>
+                                <td data-label="Code">20% Off Entire Order</td>
+                                <td data-label="Discount">20%</td>
+                                <td data-label="Start Date">February 14 2021</td>
+                                <td data-label="End Date">February 17 2021</td>
+                                <td data-label="Activate">
+                                    <img src="/images/button-on.png" alt="button"onclick="changeImgOn8()"class="img-btn"id="imgBtnOn8">
+                                    <img src="/images/button-off.png" alt="button"onclick="changeImgOff8()"class="img-btn hide"id="imgBtnOff8">
+                                    <img src="/images/dots.png" alt="dots">
+                                </td>
+                            </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
