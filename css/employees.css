@@ -240,13 +240,21 @@ header .user-profile .profile .user-info {
 }
 .container .shift-container .shifts .shift {
     width: 100%;
-    max-width: 384px;
+    flex-basis: 98%;
     display: flex;
     border-radius: 8px;
     border: 1px solid #E2E2EA;
     padding: 10px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+}
+@media (min-width: 768px) {
+    .container .shift-container .shifts .shift {
+        flex-basis: 49%;
+    }
+}
+@media (min-width: 1200px) {
+    .container .shift-container .shifts .shift {
+        flex-basis: 32%;
+    }
 }
 .container .shift-container .shifts .shift-logo {
     width: 75px;
