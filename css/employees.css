@@ -245,6 +245,7 @@ header .user-profile .profile .user-info {
     border-radius: 8px;
     border: 1px solid #E2E2EA;
     padding: 10px;
+    margin-bottom: 20px;
 }
 @media (min-width: 768px) {
     .container .shift-container .shifts .shift {
