@@ -192,7 +192,7 @@ header .user-profile .profile .user-info {
     display: flex;
     margin-bottom: 20px;
 }
-.container .header-container p {
+.container .header-container h2 {
     flex: 1;
     display: flex;
     align-items: center;
