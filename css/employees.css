@@ -236,7 +236,7 @@ header .user-profile .profile .user-info {
 .container .shift-container .shifts {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .container .shift-container .shifts .shift {
     width: 100%;
