@@ -219,10 +219,6 @@ header .user-profile .profile .user-info {
     position: relative;
     margin-bottom: 20px;
 }
-.container .shift-container .shift-container-header p {
-    font-size: 16px;
-    font-weight: bold;
-}
 .container .shift-container .shift-container-header img:first-of-type {
     position: absolute;
     right: 50px;
