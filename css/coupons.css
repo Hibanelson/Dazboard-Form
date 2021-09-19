@@ -190,7 +190,8 @@ header .user-profile .profile .user-info {
 }
 .container .header-container {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    justify-content: space-between;
 }
 .container .header-container h2 {
     flex: 1;
