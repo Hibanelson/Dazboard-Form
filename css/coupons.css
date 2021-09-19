@@ -234,7 +234,7 @@ header .user-profile .profile .user-info {
     border-radius: 10px;
 }
 .container .other-container .customers-table .search input:focus {
-	border: none;
+	border: none !important;
 }
 .container .other-container .customers-table .search img:nth-of-type(2) {
     position: absolute;
@@ -321,11 +321,11 @@ td[data-label~="Description"] span {
     text-align: left;
 }
 table img {
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out !important;
+    -webkit-transition: all .5s ease-in-out !important;
+    -moz-transition: all .5s ease-in-out !important;
+    -ms-transition: all .5s ease-in-out !important;
+    -o-transition: all .5s ease-in-out !important;
 }
 .hide {
     display: none;
