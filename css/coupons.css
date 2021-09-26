@@ -228,7 +228,7 @@ header .user-profile .profile .user-info {
 }
 .container .other-container .customers-table .search input {
     width: 70%;
-    border: none;
+    outline: none;
     background-color: #f7f7fc;
     padding: 10px 30px;
     border-radius: 10px;
